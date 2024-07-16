@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #080710;
+  font-family: Poppins;
+}
+.circle-blue {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: linear-gradient(#90caf9, #1a237e);
+  position: relative;
+  right: 94px;
+  bottom: -108px;
+  z-index: -1;
+}
+.circle-orange {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: linear-gradient(323deg, #f95300, #f5ad5b);
+  position: relative;
+  left: 300px;
+  top: -113px;
+  z-index: -1;
+}
+
+.loginpage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.loginform-container {
+  width: 400px;
+  padding: 50px 35px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  box-shadow: 0 0px 40px rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.19);
+}
+label {
+  color: rgb(238, 236, 236);
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  border: none;
+}
+input:clicked {
+  border: none;
+}
+
+h2 {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.login-btn {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 18px;
+  border: none;
+}
+input,
+button {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
